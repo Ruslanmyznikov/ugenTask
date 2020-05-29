@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  border: 1px black solid;
+  border-radius: 5px;
+}
+
+.common-border {
+  border: 1px black solid;
+  border-radius: 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.main-wrapper section {
+  flex-basis: 66%;
+  margin: 10px 5px 10px 0;
+  height: 600px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.main-wrapper aside {
+  flex-basis: 34%;
+  margin: 10px 0 10px 5px;
+  height: 600px;
+}
+
+.tasks {
+  padding: 20px;
+}
+
+.tasks div {
+  margin: 10px 20px;
+}
+
+#task_name {
+  margin: 10px;
+  width: 90%;
+  resize: none;
+}
+
+.todo-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.todo-form button {
+  width: 90%;
+  height: 45px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.todo-form button:hover {
+  background: white;
+  color: black;
+  border: black solid 1px;
+  cursor: pointer;
+  transform: color background;
+  transition-duration: 0.4s;
+}
+
+.remove-todo {
+  border: 1px red solid;
+  color: red;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  float: right;
+}
+
+.line-through {
+  text-decoration: line-through;
+} 

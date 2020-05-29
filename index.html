@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="text-center">Todo List for Ugen</h1>
+  </header>
+  <div class="main-wrapper flex">
+    <section class="common-border">
+      <h2 class="text-center">Check list</h1>
+      <div id="todo_list" class="tasks"></div>
+    </section>
+    <aside class="common-border">
+      <h2 class="text-center">Add new TODO</h3>
+      <form class="todo-form">
+        <textarea id="task_name" cols="30" rows="5"></textarea>
+        <button id="add_btn" type="button">Add Todo</button>
+      </form>
+    </aside>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
